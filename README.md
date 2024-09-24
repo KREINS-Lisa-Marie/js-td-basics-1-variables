@@ -4,6 +4,8 @@
 
 ### Partie 1 - Écrivez vos premières lignes de code
 
+
+
 #### 1. Introduction à la programmation
 
 1. Un programme, c’est quoi ?
