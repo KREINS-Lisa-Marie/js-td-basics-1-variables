@@ -15,3 +15,5 @@
 // 4. … (Veuillez préciser votre question ou vos actions ici)
 
 // Opérateur typeof
+
+

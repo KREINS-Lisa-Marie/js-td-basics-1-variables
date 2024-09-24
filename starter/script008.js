@@ -4,6 +4,8 @@
 
 // 1. Initialisez une variable firstName à "John" et affichez sa valeur dans la console.
 
+const
+
 // 2. Initialisez une variable lastName à "Smith" et une variable age à 28.
 
 // 3. Initialisez une variable fullAge à true et affichez-la.

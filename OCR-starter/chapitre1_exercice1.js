@@ -5,5 +5,5 @@ Affichez dans la console :
 */
 
 // Votre prénom (chaîne)
-
+console.log()
 // Votre âge (nombre)
