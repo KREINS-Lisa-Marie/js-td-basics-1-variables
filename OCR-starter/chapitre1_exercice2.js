@@ -18,5 +18,4 @@ console.log(6*3);
 // Division
 console.log(6/3);
 // Modulo
-
 console.log(6%3);

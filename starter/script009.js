@@ -10,10 +10,10 @@ let age= 28;
 // Conversion de type
 
 // 2. Affichez la phrase "John a 28 ans" en utilisant les variables et affichez le type de cette expression.
-console.log(firstName + " a " + age + "ans");
+console.log(firstName + " a " + age + " ans");
 // !!! espaces!! sinon ça colle
 //concatenation de chaines de caracteres
-console.log(`John a 28 ans`)
+console.log(`John a 28 ans`);
 console.log(`${firstName} a ${age} ans`);
 //template string  = avec ` `
 

@@ -4,7 +4,8 @@
 
 // 1. Initialisez une variable firstName à "John" et affichez sa valeur dans la console.
 
-const
+const myConst = "John";
+console.log(myConst);
 
 // 2. Initialisez une variable lastName à "Smith" et une variable age à 28.
 

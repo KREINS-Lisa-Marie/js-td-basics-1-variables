@@ -1,5 +1,5 @@
-console.log("Hello, World !" + 'bonjour');
-
+console.log("Hello, World !" + "bonjour");
+// instruction car ; à la fin
 
 
 let myVar = "Bonjour";
@@ -13,8 +13,8 @@ myNumber = 2;
 alert("Bonjour");
 
 
-const tit=""
-const myAge = prompt("Quel est ton âge")
+const titi="";
+const myAge = prompt("Quel est ton âge?");
 
 const myConst="bonjour";
 
@@ -22,3 +22,6 @@ const myConst="bonjour";
 console.log(myVar);
 
 console.log(typeof myNumber);
+
+
+//console.log(myAge);???
