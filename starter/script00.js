@@ -2,6 +2,8 @@ console.log("Hello, World !" + "bonjour");
 // instruction car ; à la fin
 
 
+// à partir d'ici quelques tests pour apprendre
+
 let myVar = "Bonjour";
 let myNumber=1+1;
 let myBool=false;
