@@ -19,3 +19,4 @@ console.log(6*3);
 console.log(6/3);
 // Modulo
 console.log(6%3);
+// par ex. 6.5%/2  il nous dit que le reste = 0.5

@@ -12,11 +12,11 @@ let myBool2=true;
 myVar = "TOTO";
 myNumber = 2;
 
-alert("Bonjour");
+//alert("Bonjour");
 
 
-const titi="";
-const myAge = prompt("Quel est ton âge?");
+//const titi="";
+//const myAge = prompt("Quel est ton âge?");
 
 const myConst="bonjour";
 

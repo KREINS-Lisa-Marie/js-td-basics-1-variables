@@ -5,17 +5,23 @@
 // Opérateurs multiples
 // 1. Utilisez les opérateurs +, *, et / pour effectuer une opération mathématique complexe. Affichez le résultat.
 
+console.log(5*13+22/5);
+
 // Groupement
 // 2. Créez une expression mathématique qui nécessite le groupement des opérations. Utilisez des parenthèses pour clarifier l'ordre des opérations. Affichez le résultat.
+
+console.log((25*4)/7*2);
+console.log(25*4/7*2);
 
 // Affectations multiples
 // 3. Déclarez deux variables x et y. Utilisez des affectations multiples pour leur donner des valeurs. Par exemple, x = 5 et y = 10. Affichez les valeurs de x et y.
 
-
-let x = y = 2;
+const x=5;
+const y= 10;
+console.log(`x = ${x} et y = ${y}`);
 
 // let x,y = 2. ont les mêmes valeurs mais c'est des variables différentes
-
+//let x = y = 2;
 
 // = affectation chainee
 
