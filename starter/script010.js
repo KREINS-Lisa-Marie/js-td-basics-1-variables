@@ -26,6 +26,8 @@ console.log(now + 2);
 console.log(now *2);
 console.log(now/10 + now);
 
+
+
 // Opérateurs logiques
 
 // 4. … (Veuillez préciser votre question ou vos actions ici)

@@ -27,3 +27,22 @@ console.log(`x = ${x} et y = ${y}`);
 
 // Autres opérateurs
 // 4. Utilisez un opérateur de comparaison (comme >, <, ==, etc.) pour comparer les valeurs de deux variables et affichez le résultat.
+
+
+//const ageP1 = 16;
+//const ageP2 = 18;
+
+
+//opérateurs de comparaison
+
+
+console.log(ageP1 > ageP2);
+console.log(ageP1 < ageP2);
+console.log(!(ageP1 > ageP2));        // inverser ==> négation      ( = opérateur des priorités ici
+console.log(ageP1 >= ageP2);
+console.log(ageP1 <= ageP2);
+console.log(ageP1 == ageP2);          // ne pas faire! c'est mieux de faire  ====
+console.log(ageP1 === ageP2);         // pas d'erreur car c'est possible de le faire avec = au lieu de ==
+console.log(ageP1 !== ageP2);         //≠ égal
+console.log(ageP1 > ageP2 || true);
+console.log(ageP1 > ageP2 && true);

@@ -31,7 +31,6 @@ avec les valeurs 4 et 5 selon qu'elles sont de type nombre ou de type chaîne :
 
 - que se passe-t-il si on entoure toute l'expression (VALEUR OPÉRANDE VALEUR) de guillemets ? Pourquoi ?
 
-    Erreur car l'éditeur/ la console s'attend à une autre valeur, notamment un ;
 */
 
 
@@ -41,12 +40,18 @@ console.log(4+5);
 
 // Cas 2 : 4 et 5 sont toutes deux de type chaîne
 
-console.log("quatre" + "cinq");
+console.log("4" + "5");
 
 // Cas 3 : 4 est de type chaîne et 5 est de type nombre
 
-console.log("quatre" + 5);
+console.log("4" + 5);
 
 // Cas 4 : Entourer l'expression (VALEUR OPÉRANDE VALEUR) de guillemets
 
-console.log"("quatre" + 5)";
+console.log(`"${4} + ${5}"`);
+
+//console.log("\""+ a + "+" +b + "=" + a +b +"\"");
+//console.log(`"${a} + ${b} = ${a + b}"`);
+
+// ≠ richtig aber soll so in der Art sein.
+// mieux si on passe par des constantes!
