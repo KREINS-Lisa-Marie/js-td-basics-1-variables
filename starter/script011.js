@@ -41,7 +41,7 @@ console.log(ageP1 < ageP2);
 console.log(!(ageP1 > ageP2));        // inverser ==> négation      ( = opérateur des priorités ici
 console.log(ageP1 >= ageP2);
 console.log(ageP1 <= ageP2);
-console.log(ageP1 == ageP2);          // ne pas faire! c'est mieux de faire  ====
+//console.log(ageP1 == ageP2);          // ne pas faire! c'est mieux de faire  ====
 console.log(ageP1 === ageP2);         // pas d'erreur car c'est possible de le faire avec = au lieu de ==
 console.log(ageP1 !== ageP2);         //≠ égal
 console.log(ageP1 > ageP2 || true);
