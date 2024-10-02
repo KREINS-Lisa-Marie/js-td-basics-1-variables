@@ -50,24 +50,25 @@ if (isMarkBiggerThanJohn){
 
 // VERIFIER Ce CODE SUIVANT
 
-if (bmiMark> bmiJohn){
+if (bmiMark> bmiJohn) {
     console.log("Mark a un BMI plus élevé que celui de John.");
-    if(bmiMark<18){
-    console.log( "Mark (BMI < 25) : " + Math.trunc(bmiMark));
-    } else{
-        if (bmiMark<25){
-            if(bmiMark<18){
-                console.log( "Mark (18>BMI < 25) : " + Math.trunc(bmiMark));
-        }else {
-            if (bmiMark<35){
+    if (bmiMark < 18) {
+        console.log("Mark (BMI < 25) : " + Math.trunc(bmiMark));
+    } else {
+        if (bmiMark < 25) {
+            if (bmiMark < 18) {
+                console.log("Mark (18>BMI < 25) : " + Math.trunc(bmiMark));
+            } else {
+                if (bmiMark < 35) {
                     console.log("Mark (BMI < 35) : " + Math.trunc(bmiMark));
-                } else{
-                        console.log( "Mark (BMI < 25) : " + Math.trunc(bmiMark));
+                } else {
+                    console.log("Mark (BMI < 25) : " + Math.trunc(bmiMark));
+                }
             }
+        } else {
+            console.log("John a un BMI plus élevé que celui de Mark.");
         }
     }
-        else {
-            console.log("John a un BMI plus élevé que celui de Mark.");}
 }
 
 
