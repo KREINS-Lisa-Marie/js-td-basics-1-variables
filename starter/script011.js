@@ -29,8 +29,8 @@ console.log(`x = ${x} et y = ${y}`);
 // 4. Utilisez un opérateur de comparaison (comme >, <, ==, etc.) pour comparer les valeurs de deux variables et affichez le résultat.
 
 
-//const ageP1 = 16;
-//const ageP2 = 18;
+const ageP1 = 16;
+const ageP2 = 18;
 
 
 //opérateurs de comparaison
